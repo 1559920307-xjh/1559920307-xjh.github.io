@@ -180,17 +180,12 @@ h3 {
 }
 
 .avatar {
-  display: grid;
-  place-items: center;
   width: 100%;
   aspect-ratio: 1.2;
   border-radius: 8px;
-  background:
-    linear-gradient(135deg, rgba(29, 78, 216, 0.18), rgba(183, 121, 31, 0.18)),
-    #eef3f8;
-  color: var(--blue-dark);
-  font-size: 42px;
-  font-weight: 900;
+  background: #eef3f8;
+  object-fit: cover;
+  object-position: center;
 }
 
 .facts {
