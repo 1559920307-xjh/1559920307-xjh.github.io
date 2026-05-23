@@ -30,7 +30,7 @@
           <p class="eyebrow">Academic Homepage</p>
           <h1 id="page-title">徐景浩</h1>
           <p class="lead">
-            同济大学土木工程专业，岩土工程方向排名第一。关注土木工程智能化、
+            同济大学土木工程专业，岩土工程方向排名第一。关注 AI+土木工程、
             城市防灾应急、深度学习、RAG 与大语言模型在工程场景中的应用。
           </p>
           <div class="hero-actions" aria-label="主要链接">
@@ -41,7 +41,9 @@
         </div>
 
         <aside class="resume-card" aria-label="核心信息">
-          <img class="avatar" src="assets/profile.jpg" alt="徐景浩个人照片" />
+          <figure class="portrait-frame">
+            <img class="portrait" src="assets/profile.jpg" alt="徐景浩个人照片" />
+          </figure>
           <dl class="facts">
             <div>
               <dt>学校</dt>
@@ -78,7 +80,7 @@
         </article>
         <article>
           <span>项目方向</span>
-          <strong>AI + 工程应急</strong>
+          <strong>AI + 土木工程</strong>
         </article>
         <article>
           <span>编程能力</span>
@@ -113,103 +115,124 @@
       <section id="projects" class="section">
         <div class="section-heading wide">
           <p class="eyebrow">Projects & Research</p>
-          <h2>项目与科研经历</h2>
+          <h2>项目与成果</h2>
           <p>
-            围绕城市防灾应急、智能交通、工程知识系统与深度学习建模展开。
-            项目代码将按独立仓库整理，公开版本完成后在此处更新。
+            项目围绕 AI+土木工程 展开，公开内容分为代码项目、专利技术说明书、
+            结项证明和论文复现四类。
           </p>
         </div>
 
-        <div class="project-list">
-          <article class="project-item">
-            <div class="project-meta">
-              <span>专利在投</span>
-              <time>2025.08</time>
-            </div>
-            <div class="project-body">
-              <h3>地铁洪水多终端协同交互疏散引导系统</h3>
-              <p>
-                第一作者。负责整体架构设计，覆盖环境感知、云端决策、多终端协同与反馈优化等模块，
-                推动多源数据融合与动态路径规划技术在应急场景中的集成应用。
-              </p>
-              <div class="repo-row">
-                <span class="status">代码整理中</span>
-                <span class="repo-placeholder">GitHub 仓库链接待补充</span>
+        <div class="project-group">
+          <h3>代码项目</h3>
+          <div class="project-list">
+            <article class="project-item">
+              <div class="project-meta">
+                <span>代码复现</span>
+                <time>持续整理中</time>
               </div>
-            </div>
-          </article>
+              <div class="project-body">
+                <h3>对比流模型图像生成代码的复现与小规模数据集适配</h3>
+                <p>
+                  基于论文作者代码进行复现与修改，使其适应小规模数据集训练。复现过程中保留了核心流程，
+                  但由于数据规模较小，最终效果与原论文存在差异，在小样本场景下提升幅度不大。
+                </p>
+                <div class="repo-row">
+                  <a class="repo-link" href="https://github.com/your-username/your-repo">查看代码</a>
+                  <span class="repo-placeholder">把这里替换成你的真实仓库</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
 
-          <article class="project-item">
-            <div class="project-meta">
-              <span>专利在投</span>
-              <time>2025.11</time>
-            </div>
-            <div class="project-body">
-              <h3>基于大语言模型与 RAG 技术的城市设计知识规范解读系统</h3>
-              <p>
-                第一作者。负责城市设计知识库构建、多模态输入处理、RAG 增强检索与生成、
-                智能合规审查及交互反馈模块研发，实现从知识检索到辅助决策的智能支持。
-              </p>
-              <div class="repo-row">
-                <span class="status">代码整理中</span>
-                <span class="repo-placeholder">GitHub 仓库链接待补充</span>
+        <div class="project-group">
+          <h3>专利与材料</h3>
+          <div class="project-list">
+            <article class="project-item">
+              <div class="project-meta">
+                <span>专利在投</span>
+                <time>2025.08</time>
               </div>
-            </div>
-          </article>
+              <div class="project-body">
+                <h3>地铁洪水多终端协同交互疏散引导系统</h3>
+                <p>
+                  第一作者。负责整体架构设计，覆盖环境感知、云端决策、多终端协同与反馈优化等模块，
+                  推动多源数据融合与动态路径规划技术在应急场景中的集成应用。
+                </p>
+                <div class="repo-row">
+                  <span class="status">材料：专利技术说明书</span>
+                </div>
+              </div>
+            </article>
 
-          <article class="project-item">
-            <div class="project-meta">
-              <span>软件著作权</span>
-              <time>2025.12</time>
-            </div>
-            <div class="project-body">
-              <h3>基于大模型与 RAG 的城市设计知识辅助与规范解读系统</h3>
-              <p>
-                第一作者。负责软件前后端开发，实现智能问答、方案生成、知识库动态更新与系统调试模块，
-                支持规范问题精准解答、出处标注和合规设计方案生成。
-              </p>
-              <div class="repo-row">
-                <span class="status">代码整理中</span>
-                <span class="repo-placeholder">GitHub 仓库链接待补充</span>
+            <article class="project-item">
+              <div class="project-meta">
+                <span>专利在投</span>
+                <time>2025.11</time>
               </div>
-            </div>
-          </article>
+              <div class="project-body">
+                <h3>基于大语言模型与 RAG 技术的城市设计知识规范解读系统</h3>
+                <p>
+                  第一作者。负责城市设计知识库构建、多模态输入处理、RAG 增强检索与生成、
+                  智能合规审查及交互反馈模块研发，实现从知识检索到辅助决策的智能支持。
+                </p>
+                <div class="repo-row">
+                  <span class="status">材料：专利技术说明书</span>
+                </div>
+              </div>
+            </article>
 
-          <article class="project-item">
-            <div class="project-meta">
-              <span>上海市级 SITP</span>
-              <time>2025.06</time>
-            </div>
-            <div class="project-body">
-              <h3>地铁列车乘客人流智能感知与车厢优化分配系统研发</h3>
-              <p>
-                核心成员。负责称重传感器数据、人数估算模型训练数据及虚拟仿真客流数据的分类整合与初步分析，
-                为算法开发、模型验证与研究报告撰写提供支持。
-              </p>
-              <div class="repo-row">
-                <span class="status">代码整理中</span>
-                <span class="repo-placeholder">GitHub 仓库链接待补充</span>
+            <article class="project-item">
+              <div class="project-meta">
+                <span>软件著作权</span>
+                <time>2025.12</time>
               </div>
-            </div>
-          </article>
+              <div class="project-body">
+                <h3>基于大模型与 RAG 的城市设计知识辅助与规范解读系统</h3>
+                <p>
+                  第一作者。负责软件前后端开发，实现智能问答、方案生成、知识库动态更新与系统调试模块，
+                  支持规范问题精准解答、出处标注和合规设计方案生成。
+                </p>
+                <div class="repo-row">
+                  <span class="status">材料：软件著作权证书</span>
+                </div>
+              </div>
+            </article>
 
-          <article class="project-item">
-            <div class="project-meta">
-              <span>论文撰写中</span>
-              <time>2026.03</time>
-            </div>
-            <div class="project-body">
-              <h3>基于深度学习的隧道火灾疏散轨迹预测及引导策略优化研究</h3>
-              <p>
-                第一作者。重构隧道火灾疏散数据集，将 25 种提示重分组为六类引导条件；
-                提取速度、加速度、到出口距离三个时序特征，并对比 RNN、LSTM、GRU 模型。
-              </p>
-              <div class="repo-row">
-                <span class="status">代码整理中</span>
-                <span class="repo-placeholder">GitHub 仓库链接待补充</span>
+            <article class="project-item">
+              <div class="project-meta">
+                <span>上海市级 SITP</span>
+                <time>2025.06</time>
               </div>
-            </div>
-          </article>
+              <div class="project-body">
+                <h3>地铁列车乘客人流智能感知与车厢优化分配系统研发</h3>
+                <p>
+                  核心成员。负责称重传感器数据、人数估算模型训练数据及虚拟仿真客流数据的分类整合与初步分析，
+                  为算法开发、模型验证与研究报告撰写提供支持。
+                </p>
+                <div class="repo-row">
+                  <span class="status">材料：结项证明文件</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-item">
+              <div class="project-meta">
+                <span>论文撰写中</span>
+                <time>2026.03</time>
+              </div>
+              <div class="project-body">
+                <h3>基于深度学习的隧道火灾疏散轨迹预测及引导策略优化研究</h3>
+                <p>
+                  第一作者。重构隧道火灾疏散数据集，将 25 种提示重分组为六类引导条件；
+                  提取速度、加速度、到出口距离三个时序特征，并对比 RNN、LSTM、GRU 模型。
+                </p>
+                <div class="repo-row">
+                  <span class="status">论文：撰写中</span>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
       </section>
 
