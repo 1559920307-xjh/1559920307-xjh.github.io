@@ -182,6 +182,7 @@ h3 {
 .portrait-frame {
   margin: 0;
   width: 100%;
+  max-height: 430px;
   border-radius: 8px;
   background: #eef3f8;
   overflow: hidden;
@@ -190,7 +191,9 @@ h3 {
 .portrait {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
 }
 
 .facts {
@@ -346,6 +349,10 @@ dd {
   text-decoration: none;
 }
 
+.repo-link.subtle {
+  color: var(--muted);
+}
+
 .status {
   border: 1px solid rgba(183, 121, 31, 0.32);
   border-radius: 999px;
@@ -372,6 +379,15 @@ dd {
 
 .honor-grid p {
   margin-bottom: 0;
+}
+
+.certificate-link {
+  display: inline-flex;
+  margin-top: 10px;
+  color: var(--blue-dark);
+  font-size: 14px;
+  font-weight: 850;
+  text-decoration: none;
 }
 
 .pdf-frame {
